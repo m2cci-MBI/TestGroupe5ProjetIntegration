@@ -17,7 +17,7 @@
         <task-decomposition>SEQ</task-decomposition>
         <task-precondition>true</task-precondition>
         <task-effetsdebord>void</task-effetsdebord>
-        <task-iteration>[1]while(  )</task-iteration>
+        <task-iteration>[1]</task-iteration>
         <point classkmad="tache.Point" idkmad="K12">
             <point-x>816</point-x>
             <point-y>24</point-y>
@@ -33,7 +33,7 @@
             <task-decomposition>SEQ</task-decomposition>
             <task-precondition>true</task-precondition>
             <task-effetsdebord>void</task-effetsdebord>
-            <task-iteration>[1]while(  )</task-iteration>
+            <task-iteration>[1]</task-iteration>
             <point classkmad="tache.Point" idkmad="K3">
                 <point-x>468</point-x>
                 <point-y>258</point-y>
@@ -46,12 +46,12 @@
                 <task-modality>COGN</task-modality>
                 <task-optional>false</task-optional>
                 <task-interruptible>false</task-interruptible>
-                <task-decomposition>SEQ</task-decomposition>
+                <task-decomposition>LEAF</task-decomposition>
                 <task-precondition>true</task-precondition>
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K14">
-                    <point-x>24</point-x>
+                    <point-x>36</point-x>
                     <point-y>408</point-y>
                 </point>
             </task>
@@ -63,12 +63,12 @@
                 <task-modality>COGN</task-modality>
                 <task-optional>false</task-optional>
                 <task-interruptible>false</task-interruptible>
-                <task-decomposition>SEQ</task-decomposition>
+                <task-decomposition>LEAF</task-decomposition>
                 <task-precondition>true</task-precondition>
                 <task-effetsdebord>void</task-effetsdebord>
-                <task-iteration>[1]while(  )</task-iteration>
+                <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K16">
-                    <point-x>228</point-x>
+                    <point-x>234</point-x>
                     <point-y>408</point-y>
                 </point>
             </task>
@@ -80,10 +80,10 @@
                 <task-modality>COGN</task-modality>
                 <task-optional>false</task-optional>
                 <task-interruptible>false</task-interruptible>
-                <task-decomposition>SEQ</task-decomposition>
+                <task-decomposition>LEAF</task-decomposition>
                 <task-precondition>true</task-precondition>
                 <task-effetsdebord>void</task-effetsdebord>
-                <task-iteration>[1]while(  )</task-iteration>
+                <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K18">
                     <point-x>414</point-x>
                     <point-y>408</point-y>
@@ -97,10 +97,10 @@
                 <task-modality>COGN</task-modality>
                 <task-optional>false</task-optional>
                 <task-interruptible>false</task-interruptible>
-                <task-decomposition>SEQ</task-decomposition>
+                <task-decomposition>LEAF</task-decomposition>
                 <task-precondition>true</task-precondition>
                 <task-effetsdebord>void</task-effetsdebord>
-                <task-iteration>[1]while(  )</task-iteration>
+                <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K20">
                     <point-x>576</point-x>
                     <point-y>408</point-y>
@@ -131,10 +131,10 @@
                 <task-modality>COGN</task-modality>
                 <task-optional>false</task-optional>
                 <task-interruptible>false</task-interruptible>
-                <task-decomposition>ALT</task-decomposition>
+                <task-decomposition>LEAF</task-decomposition>
                 <task-precondition>true</task-precondition>
                 <task-effetsdebord>void</task-effetsdebord>
-                <task-iteration>[1]while(  )</task-iteration>
+                <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K22">
                     <point-x>732</point-x>
                     <point-y>408</point-y>
@@ -151,7 +151,7 @@
                 <task-decomposition>ALT</task-decomposition>
                 <task-precondition>true</task-precondition>
                 <task-effetsdebord>void</task-effetsdebord>
-                <task-iteration>[1]while(  )</task-iteration>
+                <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K24">
                     <point-x>882</point-x>
                     <point-y>408</point-y>
@@ -164,12 +164,12 @@
                     <task-modality>COGN</task-modality>
                     <task-optional>false</task-optional>
                     <task-interruptible>false</task-interruptible>
-                    <task-decomposition>ALT</task-decomposition>
+                    <task-decomposition>LEAF</task-decomposition>
                     <task-precondition>true</task-precondition>
                     <task-effetsdebord>void</task-effetsdebord>
-                    <task-iteration>[1]while(  )</task-iteration>
+                    <task-iteration>[1]</task-iteration>
                     <point classkmad="tache.Point" idkmad="K26">
-                        <point-x>792</point-x>
+                        <point-x>798</point-x>
                         <point-y>564</point-y>
                     </point>
                 </task>
@@ -181,12 +181,12 @@
                     <task-modality>COGN</task-modality>
                     <task-optional>false</task-optional>
                     <task-interruptible>false</task-interruptible>
-                    <task-decomposition>ALT</task-decomposition>
+                    <task-decomposition>LEAF</task-decomposition>
                     <task-precondition>true</task-precondition>
                     <task-effetsdebord>void</task-effetsdebord>
-                    <task-iteration>[1]while(  )</task-iteration>
+                    <task-iteration>[1]</task-iteration>
                     <point classkmad="tache.Point" idkmad="K28">
-                        <point-x>948</point-x>
+                        <point-x>942</point-x>
                         <point-y>564</point-y>
                     </point>
                 </task>
@@ -216,10 +216,10 @@
                 <task-modality>COGN</task-modality>
                 <task-optional>false</task-optional>
                 <task-interruptible>false</task-interruptible>
-                <task-decomposition>SEQ</task-decomposition>
+                <task-decomposition>LEAF</task-decomposition>
                 <task-precondition>true</task-precondition>
                 <task-effetsdebord>void</task-effetsdebord>
-                <task-iteration>[1]while(  )</task-iteration>
+                <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K30">
                     <point-x>1068</point-x>
                     <point-y>408</point-y>
@@ -233,10 +233,10 @@
                 <task-modality>COGN</task-modality>
                 <task-optional>false</task-optional>
                 <task-interruptible>false</task-interruptible>
-                <task-decomposition>SEQ</task-decomposition>
+                <task-decomposition>LEAF</task-decomposition>
                 <task-precondition>true</task-precondition>
                 <task-effetsdebord>void</task-effetsdebord>
-                <task-iteration>[1]while(  )</task-iteration>
+                <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K32">
                     <point-x>1224</point-x>
                     <point-y>408</point-y>
@@ -250,10 +250,10 @@
                 <task-modality>COGN</task-modality>
                 <task-optional>false</task-optional>
                 <task-interruptible>false</task-interruptible>
-                <task-decomposition>SEQ</task-decomposition>
+                <task-decomposition>LEAF</task-decomposition>
                 <task-precondition>true</task-precondition>
                 <task-effetsdebord>void</task-effetsdebord>
-                <task-iteration>[1]while(  )</task-iteration>
+                <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K34">
                     <point-x>1362</point-x>
                     <point-y>408</point-y>
@@ -270,7 +270,7 @@
                 <task-decomposition>SEQ</task-decomposition>
                 <task-precondition>true</task-precondition>
                 <task-effetsdebord>void</task-effetsdebord>
-                <task-iteration>[1]while(  )</task-iteration>
+                <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K36">
                     <point-x>1512</point-x>
                     <point-y>408</point-y>
@@ -283,12 +283,12 @@
                     <task-modality>COGN</task-modality>
                     <task-optional>false</task-optional>
                     <task-interruptible>false</task-interruptible>
-                    <task-decomposition>ENT</task-decomposition>
+                    <task-decomposition>LEAF</task-decomposition>
                     <task-precondition>true</task-precondition>
                     <task-effetsdebord>void</task-effetsdebord>
-                    <task-iteration>[1]while(  )</task-iteration>
+                    <task-iteration>[1]</task-iteration>
                     <point classkmad="tache.Point" idkmad="K38">
-                        <point-x>1416</point-x>
+                        <point-x>1422</point-x>
                         <point-y>564</point-y>
                     </point>
                 </task>
@@ -300,10 +300,10 @@
                     <task-modality>COGN</task-modality>
                     <task-optional>false</task-optional>
                     <task-interruptible>false</task-interruptible>
-                    <task-decomposition>ENT</task-decomposition>
+                    <task-decomposition>LEAF</task-decomposition>
                     <task-precondition>true</task-precondition>
                     <task-effetsdebord>void</task-effetsdebord>
-                    <task-iteration>[1]while(  )</task-iteration>
+                    <task-iteration>[1]</task-iteration>
                     <point classkmad="tache.Point" idkmad="K40">
                         <point-x>1614</point-x>
                         <point-y>564</point-y>
