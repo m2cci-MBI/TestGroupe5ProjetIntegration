@@ -1,0 +1,29 @@
+{
+  "group" : "G04",
+  "members" : [
+    {
+      "login" : ,
+      "firstname" : ,
+      "lastname" : ,
+      "email" : 
+    },
+    {
+      "login" : "m2cci-MBI",
+      "firstname" : "Marco",
+      "lastname" : "BOLLOLI",
+      "email" : "marcobolloli@yahoo.fr"
+    }, 
+	{
+      "login" : ,
+      "firstname" : ,
+      "lastname" : ,
+      "email" : 
+    },
+    {
+      "login" : 
+      "firstname" : 
+      "lastname" : 
+      "email" : 
+    },
+  ]
+}
