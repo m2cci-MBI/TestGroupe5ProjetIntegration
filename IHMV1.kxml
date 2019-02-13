@@ -35,7 +35,7 @@
             <task-effetsdebord>void</task-effetsdebord>
             <task-iteration>[1]</task-iteration>
             <point classkmad="tache.Point" idkmad="K3">
-                <point-x>468</point-x>
+                <point-x>474</point-x>
                 <point-y>258</point-y>
             </point>
             <task classkmad="tache.Tache" id-task-point="K14" idkmad="K15">
@@ -51,12 +51,12 @@
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K14">
-                    <point-x>36</point-x>
+                    <point-x>0</point-x>
                     <point-y>408</point-y>
                 </point>
             </task>
             <task classkmad="tache.Tache" id-task-point="K16" idkmad="K17">
-                <task-name>SelectionnerSpectacle</task-name>
+                <task-name>SelectionnerRepresentation</task-name>
                 <task-numero>1.2</task-numero>
                 <task-observation/>
                 <task-executant>INT</task-executant>
@@ -68,7 +68,7 @@
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K16">
-                    <point-x>234</point-x>
+                    <point-x>210</point-x>
                     <point-y>408</point-y>
                 </point>
             </task>
@@ -85,7 +85,7 @@
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K18">
-                    <point-x>414</point-x>
+                    <point-x>432</point-x>
                     <point-y>408</point-y>
                 </point>
             </task>
@@ -102,7 +102,7 @@
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K20">
-                    <point-x>576</point-x>
+                    <point-x>582</point-x>
                     <point-y>408</point-y>
                 </point>
             </task>
@@ -111,7 +111,7 @@
             <task-name>ModifierPanier</task-name>
             <task-numero>2</task-numero>
             <task-observation/>
-            <task-executant>USER</task-executant>
+            <task-executant>ABS</task-executant>
             <task-modality>COGN</task-modality>
             <task-optional>true</task-optional>
             <task-interruptible>false</task-interruptible>
@@ -144,7 +144,7 @@
                 <task-name>ChoisirModif</task-name>
                 <task-numero>2.2</task-numero>
                 <task-observation/>
-                <task-executant>USER</task-executant>
+                <task-executant>ABS</task-executant>
                 <task-modality>COGN</task-modality>
                 <task-optional>false</task-optional>
                 <task-interruptible>false</task-interruptible>
@@ -174,7 +174,7 @@
                     </point>
                 </task>
                 <task classkmad="tache.Tache" id-task-point="K28" idkmad="K29">
-                    <task-name>SelectionerNbBillet</task-name>
+                    <task-name>ModifierNbBillet</task-name>
                     <task-numero>2.2.2</task-numero>
                     <task-observation/>
                     <task-executant>INT</task-executant>
@@ -229,7 +229,7 @@
                 <task-name>ValiderCommande</task-name>
                 <task-numero>3.2</task-numero>
                 <task-observation/>
-                <task-executant>ABS</task-executant>
+                <task-executant>USER</task-executant>
                 <task-modality>COGN</task-modality>
                 <task-optional>false</task-optional>
                 <task-interruptible>false</task-interruptible>
@@ -260,10 +260,10 @@
                 </point>
             </task>
             <task classkmad="tache.Tache" id-task-point="K36" id-task-subtasks-list="K39 K41 " idkmad="K37">
-                <task-name>Payement</task-name>
+                <task-name>Payer</task-name>
                 <task-numero>3.4</task-numero>
                 <task-observation/>
-                <task-executant>ABS</task-executant>
+                <task-executant>USER</task-executant>
                 <task-modality>COGN</task-modality>
                 <task-optional>false</task-optional>
                 <task-interruptible>false</task-interruptible>
@@ -276,7 +276,7 @@
                     <point-y>408</point-y>
                 </point>
                 <task classkmad="tache.Tache" id-task-point="K38" idkmad="K39">
-                    <task-name>DateTransaction</task-name>
+                    <task-name>EnregistrerDateTransaction</task-name>
                     <task-numero>3.4.1</task-numero>
                     <task-observation/>
                     <task-executant>INT</task-executant>
@@ -293,10 +293,10 @@
                     </point>
                 </task>
                 <task classkmad="tache.Tache" id-task-point="K40" idkmad="K41">
-                    <task-name>BilletElectronique</task-name>
+                    <task-name>EnvoyerBilletElectronique</task-name>
                     <task-numero>3.4.2</task-numero>
                     <task-observation/>
-                    <task-executant>INT</task-executant>
+                    <task-executant>USER</task-executant>
                     <task-modality>COGN</task-modality>
                     <task-optional>false</task-optional>
                     <task-interruptible>false</task-interruptible>
@@ -312,4 +312,7 @@
             </task>
         </task>
     </task>
+    <abstractobject classkmad="metaobjet.ObjetAbstrait" idkmad="K44">
+        <abstractobject-name>fff</abstractobject-name>
+    </abstractobject>
 </kmad-model>
