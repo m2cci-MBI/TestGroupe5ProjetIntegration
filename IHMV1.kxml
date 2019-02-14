@@ -369,7 +369,7 @@
                 <task-modality>COGN</task-modality>
                 <task-optional>false</task-optional>
                 <task-interruptible>false</task-interruptible>
-                <task-decomposition>SEQ</task-decomposition>
+                <task-decomposition>ALT</task-decomposition>
                 <task-precondition>true</task-precondition>
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
@@ -416,7 +416,7 @@
                 <task-name>RecupererBillet</task-name>
                 <task-numero>2.5</task-numero>
                 <task-observation/>
-                <task-executant>SYS</task-executant>
+                <task-executant>INT</task-executant>
                 <task-modality>COGN</task-modality>
                 <task-optional>false</task-optional>
                 <task-interruptible>false</task-interruptible>
@@ -432,7 +432,7 @@
                     <task-name>EnvoyerVMobile</task-name>
                     <task-numero>2.5.1</task-numero>
                     <task-observation/>
-                    <task-executant>SYS</task-executant>
+                    <task-executant>INT</task-executant>
                     <task-modality>COGN</task-modality>
                     <task-optional>false</task-optional>
                     <task-interruptible>false</task-interruptible>
@@ -449,7 +449,7 @@
                     <task-name>EnvoyerEmail</task-name>
                     <task-numero>2.5.2</task-numero>
                     <task-observation/>
-                    <task-executant>SYS</task-executant>
+                    <task-executant>INT</task-executant>
                     <task-modality>COGN</task-modality>
                     <task-optional>false</task-optional>
                     <task-interruptible>false</task-interruptible>
