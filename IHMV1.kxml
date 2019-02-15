@@ -19,8 +19,8 @@
         <task-effetsdebord>void</task-effetsdebord>
         <task-iteration>[1]</task-iteration>
         <point classkmad="tache.Point" idkmad="K12">
-            <point-x>816</point-x>
-            <point-y>24</point-y>
+            <point-x>882</point-x>
+            <point-y>23</point-y>
         </point>
         <task classkmad="tache.Tache" id-task-point="K3" id-task-subtasks-list="K15 K17 K19 K21 " idkmad="K4">
             <task-name>AjouterBillet</task-name>
@@ -50,6 +50,7 @@
                 <task-precondition>true</task-precondition>
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
+                <task-descriptioniteration>tant que l'utilisateur consulte la programmation </task-descriptioniteration>
                 <point classkmad="tache.Point" idkmad="K14">
                     <point-x>41</point-x>
                     <point-y>408</point-y>
@@ -134,6 +135,7 @@
                     <task-precondition>true</task-precondition>
                     <task-effetsdebord>void</task-effetsdebord>
                     <task-iteration>[1]</task-iteration>
+                    <task-descriptioniteration>tant que toutes les zones ne sont pas selectionnées </task-descriptioniteration>
                     <point classkmad="tache.Point" idkmad="K66">
                         <point-x>352</point-x>
                         <point-y>564</point-y>
@@ -150,6 +152,7 @@
                         <task-precondition>true</task-precondition>
                         <task-effetsdebord>void</task-effetsdebord>
                         <task-iteration>[1]</task-iteration>
+                        <task-descriptioniteration>tant que l'utisateur n'a pas selectionné tous les rangs souhaités </task-descriptioniteration>
                         <point classkmad="tache.Point" idkmad="K75">
                             <point-x>271</point-x>
                             <point-y>726</point-y>
@@ -167,6 +170,7 @@
                         <task-precondition>true</task-precondition>
                         <task-effetsdebord>void</task-effetsdebord>
                         <task-iteration>[1]</task-iteration>
+                        <task-descriptioniteration>tant que l'utilisateur n'a pas choisi toutes les places </task-descriptioniteration>
                         <point classkmad="tache.Point" idkmad="K78">
                             <point-x>435</point-x>
                             <point-y>726</point-y>
@@ -338,7 +342,7 @@
                 <task-decomposition>LEAF</task-decomposition>
                 <task-precondition>true</task-precondition>
                 <task-effetsdebord>void</task-effetsdebord>
-                <task-iteration>[0]</task-iteration>
+                <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K32">
                     <point-x>1124</point-x>
                     <point-y>408</point-y>
@@ -355,7 +359,7 @@
                 <task-decomposition>LEAF</task-decomposition>
                 <task-precondition>true</task-precondition>
                 <task-effetsdebord>void</task-effetsdebord>
-                <task-iteration>[0]</task-iteration>
+                <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K34">
                     <point-x>1274</point-x>
                     <point-y>408</point-y>
@@ -372,7 +376,7 @@
                 <task-decomposition>ALT</task-decomposition>
                 <task-precondition>true</task-precondition>
                 <task-effetsdebord>void</task-effetsdebord>
-                <task-iteration>[0]</task-iteration>
+                <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K36">
                     <point-x>1410</point-x>
                     <point-y>408</point-y>
@@ -388,7 +392,7 @@
                     <task-decomposition>LEAF</task-decomposition>
                     <task-precondition>true</task-precondition>
                     <task-effetsdebord>void</task-effetsdebord>
-                    <task-iteration>[0]</task-iteration>
+                    <task-iteration>[1]</task-iteration>
                     <point classkmad="tache.Point" idkmad="K38">
                         <point-x>1316</point-x>
                         <point-y>588</point-y>
@@ -405,7 +409,7 @@
                     <task-decomposition>LEAF</task-decomposition>
                     <task-precondition>true</task-precondition>
                     <task-effetsdebord>void</task-effetsdebord>
-                    <task-iteration>[0]</task-iteration>
+                    <task-iteration>[1]</task-iteration>
                     <point classkmad="tache.Point" idkmad="K40">
                         <point-x>1435</point-x>
                         <point-y>588</point-y>
@@ -423,7 +427,7 @@
                 <task-decomposition>ALT</task-decomposition>
                 <task-precondition>true</task-precondition>
                 <task-effetsdebord>void</task-effetsdebord>
-                <task-iteration>[0]</task-iteration>
+                <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K96">
                     <point-x>1637</point-x>
                     <point-y>408</point-y>
@@ -439,7 +443,7 @@
                     <task-decomposition>LEAF</task-decomposition>
                     <task-precondition>true</task-precondition>
                     <task-effetsdebord>void</task-effetsdebord>
-                    <task-iteration>[0]</task-iteration>
+                    <task-iteration>[1]</task-iteration>
                     <point classkmad="tache.Point" idkmad="K99">
                         <point-x>1587</point-x>
                         <point-y>564</point-y>
@@ -456,7 +460,7 @@
                     <task-decomposition>LEAF</task-decomposition>
                     <task-precondition>true</task-precondition>
                     <task-effetsdebord>void</task-effetsdebord>
-                    <task-iteration>[0]</task-iteration>
+                    <task-iteration>[1]</task-iteration>
                     <point classkmad="tache.Point" idkmad="K102">
                         <point-x>1705</point-x>
                         <point-y>564</point-y>
