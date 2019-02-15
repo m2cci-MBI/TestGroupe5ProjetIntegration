@@ -67,6 +67,7 @@
                     <task-precondition>true</task-precondition>
                     <task-effetsdebord>void</task-effetsdebord>
                     <task-iteration>[1]</task-iteration>
+                    <task-descriptioniteration>autant de fois que souhaité par l'utilisateur</task-descriptioniteration>
                     <point classkmad="tache.Point" idkmad="K69">
                         <point-x>0</point-x>
                         <point-y>588</point-y>
@@ -84,6 +85,7 @@
                     <task-precondition>true</task-precondition>
                     <task-effetsdebord>void</task-effetsdebord>
                     <task-iteration>[1]</task-iteration>
+                    <task-descriptioniteration>autant de fois que souhaité par l'utilisateur</task-descriptioniteration>
                     <point classkmad="tache.Point" idkmad="K72">
                         <point-x>141</point-x>
                         <point-y>588</point-y>
@@ -223,7 +225,7 @@
                 <task-decomposition>LEAF</task-decomposition>
                 <task-precondition>true</task-precondition>
                 <task-effetsdebord>void</task-effetsdebord>
-                <task-iteration>[0]</task-iteration>
+                <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K20">
                     <point-x>753</point-x>
                     <point-y>408</point-y>
