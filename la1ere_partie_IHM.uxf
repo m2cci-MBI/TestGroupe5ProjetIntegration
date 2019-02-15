@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>70</x>
+      <y>230</y>
+      <w>240</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>Sélection de la représentation
+--
+REPRESENTATION
+--
+_Filtrer par catégorie_
+_Sélection de la représentation_
+_Sélection du rang_
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>100</x>
+      <y>10</y>
+      <w>170</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>
+Sélection de la date
+
+--
+[DATE]
+--
+_Sélection de la date _
+_Sélection de la catégorie_
+_Tache Précédente_
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>430</x>
+      <y>30</y>
+      <w>210</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Sélection de la catégorie
+--
+[CATEGORIE]
+--
+_Sélection de la catégorie_
+_Sélection de la date _
+_Sélection de la représentation_
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>440</x>
+      <y>200</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Sélection du rang
+--
+[RANG]
+REPRESENTATION
+--
+_Sélection de la représentation_
+_Sélection du rang_
+_Sélection de la place_
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>80</x>
+      <y>420</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Sélection de la place
+--
+[PLACE]
+REPRESENTATION
+--
+_Sélection de la place_
+_Sélection du rang_
+_Sélection du nombre de billets_
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>420</x>
+      <y>410</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Sélection du nombre de billets
+--
+[BILLET]
+--
+_Validation de l’ajout des billet_
+_Sélection du nombre de billets_
+_Sélection du nombre de billets_
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>80</x>
+      <y>640</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Validation de l’ajout des billet
+--
+[BILLET]
+PANIER
+--
+_Validation de la commande_
+_Validation de l’ajout des billets_
+_Sélection du nombre de billets_
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>440</x>
+      <y>650</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Validation de la commande
+--
+PANIER
+ACHAT
+COMMANDE
+--
+_Connexion au compte utilisateur_
+_Validation de la commande_
+_Validation de l’ajout des billets_
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
