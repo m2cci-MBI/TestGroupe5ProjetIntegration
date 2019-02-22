@@ -1,42 +1,44 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.2">
-  <zoom_level>8</zoom_level>
+  <zoom_level>7</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>944</x>
-      <y>608</y>
-      <w>168</w>
-      <h>120</h>
+      <x>1022</x>
+      <y>553</y>
+      <w>147</w>
+      <h>105</h>
     </coordinates>
-    <panel_attributes>Paiement par carte bancaire
+    <panel_attributes>Connexion au compte utilisateur
 
 --
 PAIEMENT
 CARTE BANCAIRE
---
 
-_Menu choix de l’envoi du billet_
+Espace Paiement_
 
-_Menu choix du paiement_
+_Menu connexion au compte_
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>648</x>
-      <y>512</y>
-      <w>168</w>
-      <h>112</h>
+      <x>588</x>
+      <y>476</y>
+      <w>203</w>
+      <h>133</h>
     </coordinates>
-    <panel_attributes>Menu choix de l’envoi du billet
+    <panel_attributes>Espace Paiement
 
 --
+[CARTE BANCAIRE]
+[COORDONNE POUR ACHAT]
 
-_Envoi du billet vers le mobile_
 
-_Envoi du billet par e-mail_
+_Espace Récuperation Billet_
+
+_Annulation achat (Acces au site)_
 
 </panel_attributes>
     <additional_attributes/>
@@ -44,35 +46,12 @@ _Envoi du billet par e-mail_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>312</x>
-      <y>432</y>
-      <w>168</w>
-      <h>160</h>
+      <x>1323</x>
+      <y>455</y>
+      <w>147</w>
+      <h>147</h>
     </coordinates>
-    <panel_attributes>Envoi du billet vers le mobile
-
---
-[BILLET]
-SMARTPHONE
-NUMERO DE TEL
---
-
-_Menu choix de l’envoi du billet_
-
-_Espace Consultation_
-
-/Tache Suivante/</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>1568</x>
-      <y>496</y>
-      <w>168</w>
-      <h>136</h>
-    </coordinates>
-    <panel_attributes>Connexion au compte utilisateur
+    <panel_attributes>Menu connexion au compte
 
 --
 COMPTE
@@ -80,9 +59,11 @@ UTILISATEUR
 LOGIN
 --
 
-_Menu choix du paiement_
-
 _Validation de la commande_
+
+_Creer un compte_
+
+_Connexion au compte utilisateur_
 
 </panel_attributes>
     <additional_attributes/>
@@ -90,21 +71,19 @@ _Validation de la commande_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>312</x>
-      <y>640</y>
-      <w>168</w>
-      <h>144</h>
+      <x>266</x>
+      <y>462</y>
+      <w>147</w>
+      <h>126</h>
     </coordinates>
-    <panel_attributes>Envoi du billet par e-mail
+    <panel_attributes>Espace Récuperation Billet
 
 --
 [BILLET]
 ADRESSE E-MAIL
 --
 
-_Menu choix de l’envoi du billet_
-
-_Espace Consultation_
+_Acces au site_
 
 /Tache Suivante/
 
@@ -114,51 +93,33 @@ _Espace Consultation_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1296</x>
-      <y>496</y>
-      <w>168</w>
-      <h>136</h>
+      <x>1029</x>
+      <y>399</y>
+      <w>140</w>
+      <h>112</h>
     </coordinates>
-    <panel_attributes>Menu choix du paiement
-
---
-
-_Paiement par espèces_
-
-_Paiement par carte bancaire_
-
-_Connexion au compte utilisateur_
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>952</x>
-      <y>424</y>
-      <w>160</w>
-      <h>128</h>
-    </coordinates>
-    <panel_attributes>Paiement par espèces
+    <panel_attributes>Creer un compte
 
 --
 PAIEMENT
 ESPECES
---
 
-_Menu choix de l’envoi du billet_
 
-_Menu choix du paiement_
+_Espace Paiement_
+
+_Menu connexion au compte_
+
+
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>400</x>
-      <y>1096</y>
-      <w>136</w>
-      <h>128</h>
+      <x>329</x>
+      <y>959</y>
+      <w>119</w>
+      <h>112</h>
     </coordinates>
     <panel_attributes>Sélection de la date
 
@@ -176,54 +137,53 @@ _Consultation Spectacles_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>400</x>
-      <y>912</y>
-      <w>160</w>
-      <h>128</h>
+      <x>637</x>
+      <y>203</y>
+      <w>140</w>
+      <h>112</h>
     </coordinates>
-    <panel_attributes>Sélection de la catégorie
+    <panel_attributes>Filtrage programmation
 
 --
+
+[FILTRE]
 [CATEGORIE]
---
-_Sélection de la catégorie_
+[DATE]
 
-_Sélection de la date _
+_affichage programmation_
 
-_Sélection de la représentation_
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>520</x>
-      <y>32</y>
-      <w>200</w>
-      <h>160</h>
+      <x>406</x>
+      <y>35</y>
+      <w>175</w>
+      <h>140</h>
     </coordinates>
-    <panel_attributes>Espace Sélection de la représentation
+    <panel_attributes>Affichage programmation
 
 --
-REPRESENTATION
---
+[REPRESENTATION]
 
-_Espace Consultation_
 
-_Espace Sélection de la zone_
+_Acces au site_
 
-_Sélection de la place_
+_Filtrage programmation_
 
-_Sélection du rang_</panel_attributes>
+_Choix Répresentation_
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>192</x>
-      <y>1096</y>
-      <w>200</w>
-      <h>176</h>
+      <x>147</x>
+      <y>959</y>
+      <w>175</w>
+      <h>154</h>
     </coordinates>
     <panel_attributes>Sélection du rang
 
@@ -244,10 +204,10 @@ _Sélection du nombre de billets_</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>192</x>
-      <y>912</y>
-      <w>200</w>
-      <h>176</h>
+      <x>147</x>
+      <y>798</y>
+      <w>175</w>
+      <h>154</h>
     </coordinates>
     <panel_attributes>Sélection de la place
 
@@ -269,37 +229,36 @@ _Sélection du nombre de billets_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1248</x>
-      <y>32</y>
-      <w>168</w>
-      <h>112</h>
+      <x>1092</x>
+      <y>49</y>
+      <w>147</w>
+      <h>98</h>
     </coordinates>
-    <panel_attributes>Sélection du nombre de billets
+    <panel_attributes>Choix places pour PréReservation
 
 --
-[BILLET]
---
+[PLACE]
 
-_Validation de l’ajout des billet_
+_Choix Representation_
 
-_Espace Sélection de la zone_
+_Calcul Prix et Reduction_
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1552</x>
-      <y>32</y>
-      <w>168</w>
-      <h>128</h>
+      <x>1337</x>
+      <y>112</y>
+      <w>147</w>
+      <h>112</h>
     </coordinates>
-    <panel_attributes>Validation de l’ajout des billet
-
+    <panel_attributes>Calcul Prix et Reduction
 --
 [BILLET]
 PANIER
---
+PRIX
+
 
 _Validation de la commande_
 
@@ -310,46 +269,39 @@ _Sélection du nombre de billets_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1832</x>
-      <y>296</y>
-      <w>176</w>
-      <h>160</h>
+      <x>1575</x>
+      <y>266</y>
+      <w>154</w>
+      <h>147</h>
     </coordinates>
     <panel_attributes>Validation de la commande
---
-PANIER
-ACHAT
+
+-
+BILLET
 COMMANDE
 --
 
-_Connexion au compte utilisateur_
+_Menu connexion au compte_
 
-_Validation de l’ajout des billets_
+_Calcul Prix et Reduction_
 
-_Espace Consultation_
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>248</x>
+      <x>196</x>
       <y>0</y>
-      <w>152</w>
-      <h>176</h>
+      <w>133</w>
+      <h>154</h>
     </coordinates>
-    <panel_attributes>Espace Consultation
-
+    <panel_attributes>Acces au site
 --
-[FILTRE]
-[SPECTACLE]
-[DATE]
-[CATEGORIE]
---
+SITE
 
-_Sélection de répresentation_
 
-_Espace Consultation_
+_Affichage Programmation_
 
 /Tache Précédente/</panel_attributes>
     <additional_attributes/>
@@ -357,24 +309,21 @@ _Espace Consultation_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>872</x>
-      <y>32</y>
-      <w>224</w>
-      <h>176</h>
+      <x>819</x>
+      <y>21</y>
+      <w>196</w>
+      <h>154</h>
     </coordinates>
-    <panel_attributes>Espace Sélection de la zone
+    <panel_attributes>Choix Representation
 
 --
 [PLACE]
 [RANG]
 REPRESENTATION
---
 
-_Sélection du nombre de billets_
+_Affichage programmation_
 
-_Espace Sélection de la zone_
-
-_Espace Sélection de la représentation_
+_Choix places pour Préservation_
 
 </panel_attributes>
     <additional_attributes/>
@@ -382,342 +331,276 @@ _Espace Sélection de la représentation_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>392</x>
-      <y>40</y>
-      <w>144</w>
-      <h>88</h>
+      <x>322</x>
+      <y>42</y>
+      <w>98</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>160.0;10.0;10.0;90.0</additional_attributes>
+    <additional_attributes>120.0;10.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>120</x>
-      <y>152</y>
-      <w>144</w>
-      <h>24</h>
+      <x>49</x>
+      <y>70</y>
+      <w>161</w>
+      <h>21</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;160.0;10.0</additional_attributes>
+    <additional_attributes>10.0;10.0;210.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>808</x>
-      <y>528</y>
-      <w>152</w>
-      <h>176</h>
+      <x>784</x>
+      <y>490</y>
+      <w>252</w>
+      <h>147</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;170.0;200.0</additional_attributes>
+    <additional_attributes>10.0;10.0;340.0;190.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1712</x>
-      <y>40</y>
-      <w>136</w>
-      <h>384</h>
+      <x>1477</x>
+      <y>119</y>
+      <w>112</w>
+      <h>266</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;150.0;460.0</additional_attributes>
+    <additional_attributes>10.0;10.0;140.0;360.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1728</x>
-      <y>368</y>
-      <w>120</w>
-      <h>160</h>
+      <x>1463</x>
+      <y>336</y>
+      <w>126</w>
+      <h>147</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;180.0;130.0;10.0</additional_attributes>
+    <additional_attributes>10.0;190.0;160.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>392</x>
-      <y>16</y>
-      <w>1456</w>
-      <h>408</h>
+      <x>1162</x>
+      <y>560</y>
+      <w>175</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;70.0;110.0;120.0;370.0;1800.0;490.0</additional_attributes>
+    <additional_attributes>10.0;10.0;230.0;30.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1456</x>
-      <y>504</y>
-      <w>128</w>
-      <h>104</h>
+      <x>574</x>
+      <y>28</y>
+      <w>259</w>
+      <h>140</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;140.0;110.0</additional_attributes>
+    <additional_attributes>350.0;10.0;10.0;180.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>712</x>
-      <y>40</y>
-      <w>176</w>
-      <h>104</h>
+      <x>322</x>
+      <y>7</y>
+      <w>98</w>
+      <h>105</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>200.0;10.0;10.0;110.0</additional_attributes>
+    <additional_attributes>10.0;10.0;120.0;130.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>392</x>
-      <y>8</y>
-      <w>144</w>
-      <h>112</h>
+      <x>574</x>
+      <y>42</y>
+      <w>259</w>
+      <h>119</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;160.0;120.0</additional_attributes>
+    <additional_attributes>10.0;10.0;350.0;150.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>712</x>
-      <y>40</y>
-      <w>176</w>
-      <h>152</h>
+      <x>1008</x>
+      <y>28</y>
+      <w>98</w>
+      <h>119</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;200.0;170.0</additional_attributes>
+    <additional_attributes>10.0;10.0;120.0;150.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1048</x>
-      <y>40</y>
-      <w>216</w>
-      <h>104</h>
+      <x>1232</x>
+      <y>119</y>
+      <w>119</w>
+      <h>21</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>250.0;10.0;10.0;110.0</additional_attributes>
+    <additional_attributes>150.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1088</x>
-      <y>40</y>
-      <w>176</w>
-      <h>104</h>
+      <x>1232</x>
+      <y>56</y>
+      <w>119</w>
+      <h>161</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;200.0;110.0</additional_attributes>
+    <additional_attributes>10.0;10.0;150.0;210.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1400</x>
-      <y>40</y>
-      <w>168</w>
-      <h>80</h>
+      <x>1463</x>
+      <y>266</y>
+      <w>126</w>
+      <h>287</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>190.0;10.0;10.0;80.0</additional_attributes>
+    <additional_attributes>160.0;10.0;10.0;390.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1408</x>
-      <y>40</y>
-      <w>160</w>
-      <h>112</h>
+      <x>784</x>
+      <y>469</y>
+      <w>259</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;180.0;120.0</additional_attributes>
+    <additional_attributes>10.0;30.0;350.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1696</x>
-      <y>104</y>
-      <w>152</w>
-      <h>232</h>
+      <x>406</x>
+      <y>469</y>
+      <w>196</w>
+      <h>91</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>170.0;250.0;70.0;270.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;10.0;260.0;110.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1720</x>
-      <y>304</y>
-      <w>128</w>
-      <h>328</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>140.0;10.0;10.0;390.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1456</x>
-      <y>504</y>
-      <w>128</w>
-      <h>112</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>140.0;10.0;10.0;120.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>808</x>
-      <y>496</y>
-      <w>160</w>
-      <h>48</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;40.0;180.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1104</x>
-      <y>424</y>
-      <w>208</w>
-      <h>136</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;240.0;150.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1104</x>
-      <y>568</y>
-      <w>208</w>
-      <h>64</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;60.0;240.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1104</x>
-      <y>504</y>
-      <w>208</w>
-      <h>224</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>240.0;10.0;10.0;260.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1104</x>
-      <y>496</y>
-      <w>208</w>
-      <h>56</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>240.0;10.0;10.0;50.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>472</x>
-      <y>440</y>
-      <w>192</w>
-      <h>136</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;220.0;150.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>472</x>
-      <y>584</y>
-      <w>192</w>
-      <h>88</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;90.0;220.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>472</x>
-      <y>520</y>
-      <w>192</w>
-      <h>24</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>220.0;10.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>472</x>
-      <y>528</y>
-      <w>192</w>
-      <h>208</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>220.0;10.0;10.0;240.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>200</x>
+      <x>133</x>
       <y>0</y>
-      <w>64</w>
-      <h>152</h>
+      <w>147</w>
+      <h>546</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>60.0;10.0;10.0;10.0;10.0;170.0;60.0;170.0</additional_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0;10.0;760.0;190.0;760.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>144</x>
-      <y>0</y>
-      <w>184</w>
-      <h>568</h>
+      <x>0</x>
+      <y>553</y>
+      <w>280</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>130.0;10.0;10.0;10.0;10.0;690.0;210.0;690.0</additional_attributes>
+    <additional_attributes>10.0;80.0;380.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>176</x>
-      <y>0</y>
-      <w>152</w>
-      <h>768</h>
+      <x>1162</x>
+      <y>406</y>
+      <w>175</w>
+      <h>168</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>90.0;10.0;10.0;10.0;10.0;940.0;170.0;940.0</additional_attributes>
+    <additional_attributes>10.0;10.0;230.0;220.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>24</x>
-      <y>568</y>
-      <w>304</w>
-      <h>136</h>
+      <x>574</x>
+      <y>119</y>
+      <w>91</w>
+      <h>98</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;150.0;360.0;10.0</additional_attributes>
+    <additional_attributes>110.0;120.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>24</x>
-      <y>688</y>
-      <w>304</w>
-      <h>104</h>
+      <x>546</x>
+      <y>168</y>
+      <w>105</w>
+      <h>126</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;360.0;110.0</additional_attributes>
+    <additional_attributes>10.0;10.0;130.0;160.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1008</x>
+      <y>56</y>
+      <w>98</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>120.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1477</x>
+      <y>182</y>
+      <w>112</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>140.0;130.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>259</x>
+      <y>147</y>
+      <w>343</w>
+      <h>441</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;470.0;610.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1162</x>
+      <y>462</y>
+      <w>175</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>230.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1162</x>
+      <y>462</y>
+      <w>175</w>
+      <h>196</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>230.0;10.0;10.0;260.0</additional_attributes>
   </element>
 </diagram>
