@@ -34,6 +34,7 @@
             <task-precondition>true</task-precondition>
             <task-effetsdebord>void</task-effetsdebord>
             <task-iteration>[1]</task-iteration>
+            <task-descriptioniteration>tant que le client souhaite reserver/acheter des billets</task-descriptioniteration>
             <point classkmad="tache.Point" idkmad="K3">
                 <point-x>477</point-x>
                 <point-y>210</point-y>
@@ -100,6 +101,7 @@
                     <task-precondition>true</task-precondition>
                     <task-effetsdebord>void</task-effetsdebord>
                     <task-iteration>[1]</task-iteration>
+                    <task-descriptioniteration>tant que l'utilisateur souhaite consulter d'autres programmations</task-descriptioniteration>
                     <point classkmad="tache.Point" idkmad="K153">
                         <point-x>397</point-x>
                         <point-y>601</point-y>
@@ -116,6 +118,7 @@
                         <task-precondition>true</task-precondition>
                         <task-effetsdebord>void</task-effetsdebord>
                         <task-iteration>[1]</task-iteration>
+                        <task-descriptioniteration>tant que l'utilisateur souhaite appliquer des filtres à l'affichage</task-descriptioniteration>
                         <point classkmad="tache.Point" idkmad="K161">
                             <point-x>285</point-x>
                             <point-y>759</point-y>
@@ -138,7 +141,7 @@
                             </point>
                         </task>
                         <task classkmad="tache.Task" id-task-point="K167" idkmad="K168">
-                            <task-name>FilterParCategorie</task-name>
+                            <task-name>FiltrerParSpectacle</task-name>
                             <task-numero>1.2.2.1.2</task-numero>
                             <task-observation/>
                             <task-executant>INT</task-executant>
@@ -349,7 +352,7 @@
                     <task-name>CalculerSelonType</task-name>
                     <task-numero>2.1.2</task-numero>
                     <task-observation/>
-                    <task-executant>USER</task-executant>
+                    <task-executant>INT</task-executant>
                     <task-modality>COGN</task-modality>
                     <task-optional>false</task-optional>
                     <task-interruptible>false</task-interruptible>
@@ -477,8 +480,8 @@
                     <task-effetsdebord>void</task-effetsdebord>
                     <task-iteration>[1]</task-iteration>
                     <point classkmad="tache.Point" idkmad="K182">
-                        <point-x>2110</point-x>
-                        <point-y>702</point-y>
+                        <point-x>2137</point-x>
+                        <point-y>688</point-y>
                     </point>
                 </task>
             </task>
@@ -490,12 +493,12 @@
                 <task-modality>COGN</task-modality>
                 <task-optional>false</task-optional>
                 <task-interruptible>false</task-interruptible>
-                <task-decomposition>ALT</task-decomposition>
+                <task-decomposition>SEQ</task-decomposition>
                 <task-precondition>true</task-precondition>
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K96">
-                    <point-x>2371</point-x>
+                    <point-x>2383</point-x>
                     <point-y>408</point-y>
                 </point>
                 <task classkmad="tache.Task" id-task-point="K99" idkmad="K100">
@@ -511,7 +514,7 @@
                     <task-effetsdebord>void</task-effetsdebord>
                     <task-iteration>[1]</task-iteration>
                     <point classkmad="tache.Point" idkmad="K99">
-                        <point-x>2275</point-x>
+                        <point-x>2325</point-x>
                         <point-y>601</point-y>
                     </point>
                 </task>
@@ -519,7 +522,7 @@
                     <task-name>EnvoyerLesBillets</task-name>
                     <task-numero>2.5.2</task-numero>
                     <task-observation/>
-                    <task-executant>INT</task-executant>
+                    <task-executant>SYS</task-executant>
                     <task-modality>COGN</task-modality>
                     <task-optional>false</task-optional>
                     <task-interruptible>false</task-interruptible>
@@ -538,40 +541,4 @@
     <abstractobject classkmad="metaobjet.ObjetAbstrait" idkmad="K44">
         <abstractobject-name>fff</abstractobject-name>
     </abstractobject>
-    <task classkmad="tache.Task" id-task-point="K69" idkmad="K70">
-        <task-name>FiltrerParDate</task-name>
-        <task-numero>Racine   </task-numero>
-        <task-observation/>
-        <task-executant>INT</task-executant>
-        <task-modality>COGN</task-modality>
-        <task-optional>false</task-optional>
-        <task-interruptible>false</task-interruptible>
-        <task-decomposition>LEAF</task-decomposition>
-        <task-precondition>true</task-precondition>
-        <task-effetsdebord>void</task-effetsdebord>
-        <task-iteration>[1]</task-iteration>
-        <task-descriptioniteration>autant de fois que souhaité par l'utilisateur</task-descriptioniteration>
-        <point classkmad="tache.Point" idkmad="K69">
-            <point-x>40</point-x>
-            <point-y>538</point-y>
-        </point>
-    </task>
-    <task classkmad="tache.Task" id-task-point="K72" idkmad="K73">
-        <task-name>FiltrerParCategorie</task-name>
-        <task-numero>Racine   </task-numero>
-        <task-observation/>
-        <task-executant>INT</task-executant>
-        <task-modality>COGN</task-modality>
-        <task-optional>false</task-optional>
-        <task-interruptible>false</task-interruptible>
-        <task-decomposition>LEAF</task-decomposition>
-        <task-precondition>true</task-precondition>
-        <task-effetsdebord>void</task-effetsdebord>
-        <task-iteration>[1]</task-iteration>
-        <task-descriptioniteration>autant de fois que souhaité par l'utilisateur</task-descriptioniteration>
-        <point classkmad="tache.Point" idkmad="K72">
-            <point-x>181</point-x>
-            <point-y>538</point-y>
-        </point>
-    </task>
 </kmad-model>
