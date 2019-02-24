@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/MyTheatre">
+<Resource name="jdbc/MyTheatre" 
+                  auth="Container" 
+                  type="javax.sql.DataSource"
+                  maxTotal="10" 
+                  maxIdle="3" 
+                  maxWaitMillis="10000"
+                  driverClassName="org.sqlite.JDBC"
+                  url="jdbc:sqlite:C:\Users\Mouddy\Desktop\version à jour myTheatre\myTheatre.db"
+        
+/>
+</Context>

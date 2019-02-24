@@ -1,0 +1,31 @@
+
+td{
+    background-color: beige;
+     height: 50px;
+}
+th {
+    background-color:aqua;
+     height: 50px;
+}
+table {
+   width: 80%;
+    border-collapse: collapse;
+ 
+    clear: both;
+     margin-left:  140px;
+}
+
+table th, td {
+  border: 1px solid black;
+  text-align:center
+}
+
+
+h1 {
+    text-align:center;
+    
+}
+
+.site{
+       margin-left: 700px;
+}

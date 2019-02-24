@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MyTheatre Website</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+        <style>
+
+            footer {
+                background-color: #555;
+                color: bisque;
+                padding: 15px;
+            }
+            .container {
+                position: relative;
+                width: fit-content;
+            }
+            .btn
+            {
+                width: 300px;
+                height: 80px;
+                text-align: center;
+                color: antiquewhite;
+
+            }
+
+            /* Make the image responsive */
+             .container img {
+                width:  1150px;
+                height: 700px;
+                margin-left: -30px;
+                
+            }
+            .cadre{
+                width: 400px;
+                height: 120px;
+            }
+
+
+            /* Style the button and place it in the middle of the container/image */
+            .container .cadre {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                background-color: #555;
+                color: white;
+                font-size: 16px;
+                padding: 2px 2px;
+                border: none;
+                cursor: pointer;
+                border-radius: 5px;
+            }
+
+
+        </style>
+    </head>
+    <body>
+
+
+        <div class="container-fluid text-center">    
+            <div class="row content">
+                <div class="col-sm-3  bg-dark sidenav">
+                    <br>
+                    <p><a class="btn btn-secondary" href="index.html">Accueil MyTheatre</a></p>
+                    <div class="dropright">
+                        <button class="btn btn-secondary dropdown-toggle" type="button"  data-toggle="dropdown" > Consulter Programmes</button>
+                        <div class="dropdown-menu" >
+                            <a class=" dropdown-item" href="FiltrerParNom.html">Filtrer par nom </a>
+                            <a class=" dropdown-item" href="FiltrerParDate.html">Filtrer par date </a>
+                        </div>
+                    </div>
+                    <br>
+                    <p><a class="btn btn-secondary ">Choisir Representation </a></p>
+                    <p><a class="btn btn-secondary disabled">Pre-reserver une place</a></p>
+                    <p><a class="btn btn-secondary disabled">Se Connecter</a></p>
+                    <p><a class="btn btn-secondary disabled">Payer</a></p>
+                    <p><a class="btn btn-secondary disabled">Récuperer ton Billet</a></p>
+                </div>
+                <div class="col-sm-9 text-left"> 
+                    <div class="container">
+                        <img src="image/theatre.png" alt=""/>
+                        <div class="cadre">
+                            <form action="SpectacleCtrl">                 
+
+                                <h4>Choisir une période </h4>
+
+                                <label for="dateDebut">Date debut&nbsp;</label><input id="dateD"  type="date" name="dateSpectacleDebut" >
+                                <br>
+                                <label for="dateFin">Date fin&nbsp;</label><input id="dateF" type ="date" name="dateSpectacleFin">
+
+                                <input type="submit" value="Envoyer" />
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="container-fluid text-center">
+            <p>Projet d'integration 2018/2019</p>
+        </footer>
+    </body>
+</html>
+
